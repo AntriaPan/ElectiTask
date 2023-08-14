@@ -1,0 +1,22 @@
+version: '3'
+services:
+  electi_task2:
+    build:
+      context: .
+      dockerfile: Dockerfile.task2
+    ports:
+      - "5283:5283"
+    networks:
+      - electi_network
+
+  electi_ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    ports:
+      - "3000:3000"
+    networks:
+      - electi_network
+
+networks:
+  electi_network:

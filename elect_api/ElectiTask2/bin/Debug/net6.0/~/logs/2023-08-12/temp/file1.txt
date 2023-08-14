@@ -1,0 +1,1 @@
+2023-08-12 17:36:25.4133|INFO|UsersController|Successful login: User with username = root
