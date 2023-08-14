@@ -2,7 +2,7 @@
 
 # Bookstore Application Setup Guide
 
-This guide provides comprehensive instructions for setting up and running the Bookstore application, a hypothetical bookstore management system. The application features user authentication, book management, API documentation using Swagger, logging with NLog, testing, and Docker deployment. The application is built using .NET 6+, React (for the frontend), and Entity Framework, Swagger and Nlog.
+This guide provides comprehensive instructions for setting up and running the Bookstore application, a hypothetical bookstore management system. The application features user authentication, book management, API documentation using Swagger, logging with NLog, testing, and Docker deployment. The application is built using .NET 6+, React (for the frontend), and Entity Framework.
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ cd https://github.com/AntriaPan/ElectiTask.git
 1. Navigated to the appropriate subdirectories for the API (BookstoreApi) and the frontend (BookstoreFrontend).
 
 ## Database Setup
-1. Designed a database to store books and user information.
+1. Designed a database to store books and user information (by yourself locally).
 2. Set up your database connection string in the appsettings.json file of the API project.
 
 ## API Development
